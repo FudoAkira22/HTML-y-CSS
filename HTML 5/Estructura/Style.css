@@ -1,23 +1,81 @@
+* {
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina los espacios internos predeterminados */
+}
+
 header{
     background-color: gray;/*este es el color de fondo*/
     border: 20px chartreuse;/**/
-    width: 770px;
+    width: 870px;
     height: 200px;
     margin: 5px;/**/
     border-radius: 10px;/*redondea los bordes*/
+   
 }
 
 main{
-    height: 780px;/*Altura*/
-    width: 770px;/*Anchura*/
+    height: 800px;/*Altura*/
+    width: 870px;/*Anchura*/
     background-color: chocolate;
     border-radius: 10px;
+  margin: 5px;
 }
 
 nav{
-    height: 200px;
-    width: 750px;
+    height: 700px;
+    width: 150px;
     background-color: green;
-    margin: 10px;
+    margin: 5px;
     border-radius: 5px;
+    float: left;
+}
+
+section{
+    background-color: gray;
+    height: 340px;
+    width: 535px;
+    margin: 5px;
+    float: left;
+    border-radius: 10px;
+}
+/*Se pone # cuando hacemos referencia al id en html*/
+#primero{
+    background-color: burlywood;
+    width: 440px;
+    height: 100px;
+    float: left;/*Esto*/
+    margin: 5px;
+}
+
+#segundo{
+    background-color: burlywood;
+    width: 440px;
+    height: 100px;
+    float: left;/*Esto*/
+    margin: 5px;
+}
+
+#tercero{
+    background-color: burlywood;
+    width: 440px;
+    height: 100px;
+    float: left;/*Esto*/
+    margin: 5px;
+}
+
+aside{
+    background-color: grey;
+    width: 150px;
+    height: 340px;
+    float: right;
+    margin: 5px;
+    border-radius: 5px;
+}
+footer{
+   background-color: aquamarine;
+   width: 870px;
+   height: 50px; 
+   margin: 5px;
+   border-radius: 10px;
+
 }
