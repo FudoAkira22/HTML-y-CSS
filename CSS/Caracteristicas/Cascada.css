@@ -1,0 +1,32 @@
+p{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+main{
+    background-color: green;
+}
+
+body{
+    background-color: black;
+}
+/*Todo valor determinado que se 
+coloque mas abajo sera tomado en cuenta primero*/
+p{
+    color: white;
+}
+
+h1{
+    color: violet;
+}
+
+main{
+    background-color: yellowgreen;
+}
+
+body{
+    background-color: blue;
+}

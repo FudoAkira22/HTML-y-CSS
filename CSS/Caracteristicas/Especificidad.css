@@ -1,0 +1,13 @@
+/*Le da preferencia al id que a una etiqueta simple y mas que la clase*/
+#identificador{
+    color: lawngreen;
+}
+/*y entre etiqueta a clase la clase tiene preferencia*/
+.clase{
+    color: lightcoral;
+}
+p{
+    color: red !important;/*Este hace que se respete el atributo mas que los demas*/
+}
+
+/*Eso es la especificidad*/

@@ -1,0 +1,9 @@
+p{
+    color: red;
+    background-color: rebeccapurple;
+}
+
+/*Este a esta adentro de un parrafo*/
+a{
+    color: inherit;/*Este hereda la propiedad por locual es rojo*/
+}
