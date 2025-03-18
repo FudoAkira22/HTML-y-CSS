@@ -1,0 +1,6 @@
+/*Este funciona si solo al que esta mas cerca*/
+h2 + h3{
+    color: fuchsia;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

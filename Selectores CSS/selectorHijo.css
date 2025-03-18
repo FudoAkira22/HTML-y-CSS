@@ -1,0 +1,14 @@
+/*Lo que este despues de > es al que se le apliacara el stilo*/
+h3 > a{
+    color: red;
+}
+/*en este caso el que este hasta al final*/
+h3 > p > a{
+    color: green;
+}
+
+/*tambien con los id y clases aplica*/
+#tituloh3 > p > a{
+    background-color: rebeccapurple;
+    color: blue;
+}

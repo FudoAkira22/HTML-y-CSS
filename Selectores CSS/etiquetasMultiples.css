@@ -1,0 +1,9 @@
+
+/*De esta forma se pueden agrupar */
+h1,h2,h3,p,a{
+    color: red;
+}
+/*A este tambien le afecta la cascada*/
+h1{
+    color: powderblue;
+}

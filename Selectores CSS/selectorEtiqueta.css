@@ -1,0 +1,11 @@
+/*haci se le llama al selector de etiqueta*/
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rebeccapurple;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+}

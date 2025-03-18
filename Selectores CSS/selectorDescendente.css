@@ -1,0 +1,12 @@
+/*a esta dentro de p*/
+/*este no lleva (,) si no espacio*/
+/*Con esto tiene mas precicion*/
+p a{
+    color: red;
+    background-color: blue;
+}
+
+/*De esta forma es para los id como las clases*/
+#p1 a{
+    color: white;
+}

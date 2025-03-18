@@ -1,0 +1,24 @@
+/*Para llamar a los id se usa los #nombredelId  */
+p{
+background-color: black; 
+}
+#p1{
+color: red;
+}
+
+#p2{
+    color: purple;
+    }
+
+/*Para llamar a una clase es .nombredelaclase*/
+    
+.titulos{
+    background-color: black;
+    color: purple;
+}
+
+/*Esto es para llamar a una etiqueta especifica de una clase
+en este caso se excluye el h1*/
+h2.titulos{
+    color: red;
+}

@@ -1,0 +1,7 @@
+[class]{
+    background-color: red;
+}
+/*Este hagarra el atributo y si tiene clase es mas especifico o desde donde se aplica*/
+[class="parrafo"]{
+    color: blue;
+}

@@ -1,0 +1,9 @@
+/*De esta forma se llama al seelctor universal*/
+*{
+    font-size: 50px;
+    color: hotpink;
+}
+/*Con ese si se respeta el stilo cascada*/
+h1{
+    color: red;
+}
