@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background: linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+}
+/*De esta forma se llama al hexadecimal*/
+.container{
+    background-color: #a717e1;
+    height: 40%;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*De esta forma de llama al rgb*/
+h1{
+    background-color: #a717e1;
+    color: rgb(41, 225, 23);
+}
+
+/*De esta forma se hace con el color normal*/
+p{
+    background-color: #a717e1;
+    color: yellowgreen;
+}
+
+h2{
+    /*Los gradiantes son como muchos colores en uno*/
+    background: linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    color: rgba(50.20%, 4.31%, 12.55%);
+}

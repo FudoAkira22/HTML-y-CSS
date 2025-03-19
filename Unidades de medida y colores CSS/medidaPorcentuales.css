@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+    color: white;
+}
+/*Los porcentajes se usan para contenedores*/
+div{
+    height: 40%;/*alto*/
+    width: 50%;/*Ancho*/
+    margin: 10px;
+}
+
+p{
+    font-size: 50%;/*Esto no se debe de hacer*/
+}

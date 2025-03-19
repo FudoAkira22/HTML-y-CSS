@@ -1,0 +1,30 @@
+/*Esto cambiara el tamaño de todas las letras*/
+body {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+h1 {
+font-size: 1ex; /*= 0.5em = 8px*/
+}
+
+
+/*Aquí no hay una suma directa de 
+"2em + 24px", sino que 2em multiplica 
+el tamaño de la fuente heredada. No es 
+24px + 2em, sino 24px × 2.*/
+/*
+em multiplica el tamaño 
+de la fuente heredada.
+
+En tu código, p { font-size: 2em; } 
+hace que el tamaño de la fuente sea 
+48px porque el <body> tiene 24px de base.
+
+Si el tamaño del <body> cambiara, 
+p también se ajustaría dinámicamente.
+*/
+p {
+  font-size: 2em; /*tamano de letra = 32 px*/
+}

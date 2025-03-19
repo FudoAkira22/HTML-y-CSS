@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    color: white;
+}
+/*Por lo general las medidas absoulutas son muy grandes*/
+body{
+    font-size: 35px;
+}
+/*En las medidas absolutas nunca cambian su medida
+por lo cual no se multiplica por la base del body*/
+h1{
+    /*32px es si medida normal de h1*/
+    font-size: 1in;/**/
+}
+
+h2{
+    font-size: 10cm;
+}
+
+p{
+    font-size: 10mm;
+}
+
+p{
+    font-size: 30pt;
+}
+
+p{
+    font-size: 12pc;
+}
