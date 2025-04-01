@@ -1,0 +1,52 @@
+/*este es la linea entre margen y  padding*/
+#caja1{
+    margin: 100px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding:10px;
+    border: 10px;
+    /*Es igualq que los otrso dos en cuanto a forma de ceclararse
+    pero si quieres que aparesca el borde le deves de dar un estilo
+    y en este caso un color*/
+    border-color: blue;
+    border-style: solid;
+}
+
+#caja2{
+    margin: 100px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: 5px 5px 5px 5px;
+    border-color: blueviolet;
+    border-style: groove;
+
+}
+
+#caja3{
+    margin: 100px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    border-left: 20px;
+    border-top: 20px;
+    border-bottom: 20px;
+    border-right: 20px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-left-color: darkmagenta;
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: yellowgreen;
+    
+}
+
+p{
+    background-color: brown;
+}

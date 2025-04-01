@@ -1,0 +1,54 @@
+body{
+    background-image: url("img/descarga.png");
+    background-position: center;/*la posicion que va a tomar la imagen*/
+    background-attachment: fixed;/*esto hace que la imagen se quede estatica cuando bajas*/
+}
+#caja{
+    height: 1000px;
+    width: 100%;/*de esta forma abaracara todo a lo ancho*/
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: space-around; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Centra verticalmente */
+    
+}
+
+
+#caja1{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 10px;
+    border-style: dashed;
+    border-color: red;
+    color: white;
+    background-color: black;
+    
+}
+
+
+#caja2{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 10px;
+    border-style: dashed;
+    border-color: red;
+    color: white;
+    background-color: black;
+}
+
+
+#caja3{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 10px;
+    border-style: dashed;
+    border-color: red;
+    color: white;
+    background-color: black;
+}
+

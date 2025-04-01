@@ -1,0 +1,29 @@
+/*margin es el espacio que esta por fuera de la caja*/
+#caja{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+   /*influje en general*/
+   margin: 100px 100px 100px 100px; 
+   /*el de arriba es igual*/
+   margin: 100px; 
+    /*Este solo a los lados*/
+    margin: 100px 100px; 
+    /*primero superior, segundo toma dos que es izquierda y drecha y el ultimo solo es abajo*/
+    margin: 100px 100px 100px; 
+}
+
+#caja2{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+     /*se encarga del espacio de arriba
+     espacio entre cajas por fuera*/
+     margin-top: 100px;
+     /*espacio de abajo*/
+     margin-bottom: 100px;
+     /*margen de la izquierda*/
+     margin-left: 100px;
+     /*margen derecha*/
+     margin-right: 100px;
+}

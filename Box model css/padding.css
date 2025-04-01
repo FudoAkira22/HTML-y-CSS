@@ -1,0 +1,38 @@
+/*Es un espacio entre el contenido de la caja y el borde de la caja*/
+#caja1{
+    margin: 100px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    /*parte de arriba*/
+    padding-top: 10px;
+    /*parte de abajo*/
+    padding-bottom: 10px;
+    /*Izquierda*/
+    padding-left: 10px;
+    /*Derecha*/
+    padding-right: 10px;
+}
+
+#caja2{
+    margin: 100px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+#caja3{
+    margin: 100px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+p{
+    background-color: brown;
+}

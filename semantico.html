@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML Semántico</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a CSS opcional -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        aside {
+            background: #ddd;
+            padding: 10px;
+            margin: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contenedor {
+    display: flex;
+    gap: 20px;
+}
+.tarjeta {
+    background: lightgray;
+    padding: 15px;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Este es un ejemplo de una estructura semántica en HTML5.</p>
+        </section>
+        
+        <section id="sobre">
+            <h2>Sobre mí</h2>
+            <p>Aquí puedes colocar información sobre ti o tu negocio.</p>
+        </section>
+        
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <article>
+                <h3>Servicio 1</h3>
+                <p>Descripción del servicio.</p>
+            </article>
+            <article>
+                <h3>Servicio 2</h3>
+                <p>Descripción del servicio.</p>
+            </article>
+        </section>
+        <div class="contenedor">
+            <div class="tarjeta">
+                <h2>Título</h2>
+                <p>Descripción breve.</p>
+            </div>
+            <div class="tarjeta">
+                <h2>Otro Título</h2>
+                <p>Más contenido aquí.</p>
+            </div>
+        </div>
+        
+    </main>
+    
+    <aside>
+        <h2>Noticias</h2>
+        <p>Últimas actualizaciones o enlaces de interés.</p>
+    </aside>
+    
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

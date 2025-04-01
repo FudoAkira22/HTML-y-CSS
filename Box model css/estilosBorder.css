@@ -1,0 +1,47 @@
+#caja1{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 20px;
+    border: 10px;
+    background-color: black;
+    color: white;
+    border-color: yellowgreen;
+    border-style: dotted;/*Son puntos*/
+}
+
+#caja2{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 20px;
+    border: 10px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+#caja3{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 20px;
+    border: 10px;
+    background-color: black;
+    color: white;
+    border-color: aquamarine;
+    border-style: ridge;
+}
+
+#caja4{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 20px;
+    border: 10px;
+    background-color: black;
+    color: white;
+    border-color: chocolate;
+    border-style: outset;
+}
