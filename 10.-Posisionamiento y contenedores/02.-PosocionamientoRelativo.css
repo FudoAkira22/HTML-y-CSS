@@ -1,0 +1,12 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.relativo{
+    position: relative;
+    top: 50px;/*Pero en caso de top y bootom toma encuenat el top primero*/
+    bottom: 50px;
+    /*right: 50px; si se pone este toma encuenta left por el efecto cascada*/
+    left: 50px;
+}

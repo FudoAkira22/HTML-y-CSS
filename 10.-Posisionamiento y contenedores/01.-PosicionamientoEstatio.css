@@ -1,0 +1,6 @@
+div{
+    width: 100px;
+    height: 500px;
+    /*Se mantiene sin dejar espacios*/
+    position: static;
+}

@@ -1,0 +1,10 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.absolute{
+    position: absolute;/*Lo pone hasta el frente pero como si no tuviera margen*/
+    top: 310px;
+    left: 310px;
+}

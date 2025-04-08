@@ -1,0 +1,23 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.float{
+   float: right;/*Para los elementos en linea*/
+}
+div{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.float2{
+    background-color: rosybrown;
+    float: left;/*Con los elementos en caja esto ocaciona que se ponga uno ensima del otro*/
+}
+
+.caja{
+    float: left;/*Con esto ya todos los elementos respetansu posicuin*/
+}

@@ -1,0 +1,10 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.fixed{
+    position: fixed;/*Lo deja fijo en la pantalla*/
+    top: 250px;
+    right: 500px;
+}
