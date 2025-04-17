@@ -1,0 +1,18 @@
+.caja1{
+    background-color: hotpink;
+    display: inline;
+}
+
+.caja2{
+    background-color: brown;   
+    display: inline; 
+}
+
+.caja3{
+    background-color: burlywood;
+    display: inline;
+}
+
+p{
+    display: inline;
+}

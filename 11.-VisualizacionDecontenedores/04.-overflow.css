@@ -1,0 +1,19 @@
+div{
+    display: inline;
+    float: left;
+    margin: 1em;
+    padding: .3em;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+/*Se le aplica el overflow al contenedor donde este el contenido*/
+.caja1{
+    overflow: visible;/*se ve desvordado el contenido*/
+}
+.caja2{
+    overflow: hidden;/*El contenido que desvorda ya no se ve*/
+}
+.caja3{
+    overflow: scroll;/*El contenido que desvorda se ve, pero con scroll*/
+}

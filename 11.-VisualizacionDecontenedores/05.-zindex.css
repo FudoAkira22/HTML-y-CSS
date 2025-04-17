@@ -1,0 +1,30 @@
+
+/*
+El eje z es de frofundudad
+
+*/
+div{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: 10px;
+}
+
+.caja1{
+    background-color: red;
+    z-index: 10;/*El numero mayor se posisionara arriba de otra*/
+}
+
+.caja2{
+    background-color: blue;
+    bottom: 10em;
+    left: 100px;
+    z-index: 5;
+}
+
+.caja3{
+    background-color: green;
+    bottom: 22em;
+    left: 280px;
+    z-index: 20;
+}

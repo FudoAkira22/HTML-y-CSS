@@ -1,0 +1,30 @@
+/*
+permite modificar un el en bloque como en linea al mismo tiempo
+*/
+
+/*
+depende de la cantidad de contenido que tenga, 
+si uno tiene mas palabras o cosas dentro como
+en el caso de los div pueden cambiar de lugar
+y no se alinean como uno espera se arregla con overflow
+*/
+
+div{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    display: inline-block;
+       /* float: left;Si coloco esto aunque uno tenga menos contendio se colocaran bien*/
+}
+
+.caja1{
+    background-color: red;
+}
+
+.caja2{
+    background-color: blue;
+}
+
+.caja3{
+    background-color: green;
+}
